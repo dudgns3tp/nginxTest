@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.send('3000번 포트')
+  res.send('3001번 포트')
 });
 
 module.exports = router;
